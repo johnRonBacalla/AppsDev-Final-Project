@@ -54,9 +54,6 @@ namespace Bacalla_Final_ConsoleApp
                 ProfilesCheckSum = lines[1];
             }
 
-            Console.WriteLine(ProfilesCheckSum);
-            Console.WriteLine(Checksum.getCurrentSum(Program.ProfilesFilePath));
-
             Console.WriteLine(" ________________________________________");
             Console.WriteLine("|                                        |");
             Console.WriteLine("| University of Cebu Library Loan System |");
